@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"; 
-import "./App.css"; 
-// import { createFFmpeg, fetchFile } from "@ffmpeg/ffmpeg";
+import "./App.css";
 import { FFmpeg } from '@ffmpeg/ffmpeg'
 import { fetchFile } from '@ffmpeg/util';
 import { Button } from "./components/Button"; 
@@ -11,7 +10,6 @@ import { Inputvideo } from "./components/Inputvideo";
 import { Dbutton } from "./components/Dbutton"; 
 
 // Create the FFmpeg instance and load it 
-// const ffmpeg = createFFmpeg({ log: true });
 const ffmpeg = new FFmpeg();
 
 function App() { 
